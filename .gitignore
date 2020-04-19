@@ -6,3 +6,8 @@ node_modules/
 build/
 dist/
 vendor/
+
+yarn.lock
+package-lock.json
+composer.lock
+

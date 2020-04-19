@@ -1,17 +1,18 @@
 {
   "name": "hello-wordpress",
   "version": "1.0.0",
-  "description": "",
+  "description": "Bonjour! I'm a starter theme called hello-wordpress",
   "main": "index.js",
   "scripts": {
     "postinstall": "composer install",
     "build": "grunt clean && npm run pot && grunt",
+    "lint": "composer lint:php",
     "pot": "composer make-pot",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Erik Yuzwa <erikyuzwa@gmail.com>",
+  "license": "MIT",
   "devDependencies": {
     "grunt": "^1.1.0",
     "grunt-contrib-clean": "^2.0.0",
