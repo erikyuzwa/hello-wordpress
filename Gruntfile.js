@@ -15,7 +15,7 @@ module.exports = grunt => {
     Author: Erik Yuzwa (@eyuzwa)
     Author URI: https://erikyuzwa.com
     Tags: Blank, HTML5, CSS3
-    
+    Text Domain: hello-wordpress
     License: MIT
     License URI: http://opensource.org/licenses/mit-license.php
 */
@@ -100,5 +100,5 @@ module.exports = grunt => {
         }
     });
 
-    grunt.registerTask('default', ['clean', 'sass', 'header', 'replace', 'copy', 'uglify', 'compress']);
+    grunt.registerTask('default', ['sass', 'header', 'replace', 'copy', 'uglify', 'compress']);
 };

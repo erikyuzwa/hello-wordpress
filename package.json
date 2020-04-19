@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "grunt",
+    "postinstall": "composer install",
+    "build": "grunt clean && npm run pot && grunt",
+    "pot": "composer make-pot",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
