@@ -3,6 +3,8 @@
 This is an operational starter theme setup for a basic WordPress theme. It's meant to be a very minimal theme
 to just get up and running.
 
+![Hello Wordpress](https://github.com/erikyuzwa/hello-wordpress/blob/master/screenshot.png)
+
 ## Theme Features
 
 - NPM and Grunt build tooling

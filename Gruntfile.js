@@ -46,7 +46,8 @@ module.exports = grunt => {
                 files: [
                     // includes files within path
                     {expand: true, flatten: true, src: ['./*.php'], dest: 'build/'},
-                    {expand: true, cwd: './src', src: ['lang/**'], dest: 'build/'}
+                    {expand: true, cwd: './src', src: ['lang/**'], dest: 'build/'},
+                    {expand: true, flatten: true, src: ['./screenshot.png'], dest: 'build/'}
 
                     // includes files within path and its sub-directories
                     //{expand: true, src: ['path/**'], dest: 'dest/'},
