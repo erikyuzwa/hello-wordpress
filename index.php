@@ -29,8 +29,8 @@ get_header();
 							</a>
 						</h1>
 						<div class="post-meta">
-							<?php the_date('j F Y'); ?>
-
+                            <span class="posted-on">Posted on <?php echo get_the_date('j F Y'); ?></span>
+                            <span class="posted-byline">by <?php echo get_the_author_link(); ?></span>
 						</div><!--/post-meta -->
 
 						<div class="the-content">

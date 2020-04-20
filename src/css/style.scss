@@ -31,13 +31,13 @@ $border-color:		#dddddd;
 // ----------------------
 
 // if you want to use a webfont from gooogle or something
-@import url(https://fonts.googleapis.com/css?family=Arvo:400,700);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700&family=Merriweather:wght@400;700);
 
 // Body Font family
-$body-font:		"Helvetica Neue", Helvetica, Arial, sans-serif;
+$body-font:		'Merriweather', serif;
 
 // Heading font family
-$heading-font:	"Arvo", Georgia, serif;
+$heading-font:	'PT Sans', sans-serif;
 
 // Site name size
 $site-text-size:	16;
@@ -342,6 +342,7 @@ article {
 
 			&:hover {
 				color: $secondary;
+				border-bottom: 2px dotted $secondary;
 			}
 		}// a
 
@@ -349,14 +350,21 @@ article {
 
 	.post-meta {
 		margin-bottom:  $margin;
-		font-size: 14px;
+		@include calc-font-size(15);
+		color: $light-grey;
+
+		.posted-on {
+		}
+
+		.posted-byline {
+		}
 
 		a {
-			color: $light-grey;
 			text-decoration: none;
 
 			&:hover {
 				color: fade($light-grey, 50%);
+				border-bottom: 2px dotted $light-grey;
 			}
 		}
 
