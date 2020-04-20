@@ -143,43 +143,57 @@ h4 {
 }
 
 hr {
-	background-color: #ccc;
+	background-color: $light-grey;
 	border: 0;
 	height: 1px;
-	/*margin-bottom: 1.5em;*/
 }
 
 /* Text elements */
 p {
 	margin-bottom: 1.5em;
 }
+
 ul, ol {
 	margin: 0 0 1.5em 3em;
 }
+
 ul {
 	list-style: disc;
 }
+
 ol {
 	list-style: decimal;
 }
+
 ul ul, ol ol, ul ol, ol ul {
 	margin-bottom: 0;
 	margin-left: 1.5em;
 }
+
 dt {
 	font-weight: bold;
 }
+
 dd {
 	margin: 0 1.5em 1.5em;
 }
+
 b, strong {
 	font-weight: bold;
 }
+
 dfn, cite, em, i {
 	font-style: italic;
 }
+
 blockquote {
-	margin: 0 1.5em;
+	margin-left: 1rem;
+	margin-bottom: 1rem;
+	margin-top: 1rem;
+	padding: .4rem .8rem;
+	border-left: .35rem solid $secondary;
+	color: $light-grey;
+	font-style: italic;
 }
 address {
 	margin: 0 0 1.5em;
@@ -257,7 +271,6 @@ header {
 			font-family: $body-font;
 			font-weight: 900;
 			color: $site-name-color;
-			/*@include calc-font-size($site-text-size);*/
 			margin: 0;
 			padding: 0;
 			text-transform: uppercase;
