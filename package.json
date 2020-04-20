@@ -1,6 +1,6 @@
 {
   "name": "hello-wordpress",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Bonjour! I'm a starter theme called Hello WordPress",
   "main": "index.js",
   "scripts": {

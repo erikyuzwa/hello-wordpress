@@ -2,7 +2,7 @@
 # This file is distributed under the MIT License.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hello Wordpress 1.0.0\n"
+"Project-Id-Version: Hello Wordpress 1.0.1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/_s\n"
 "Last-Translator: Erik Yuzwa <erikyuzwa@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
