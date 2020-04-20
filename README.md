@@ -1,9 +1,9 @@
-# Hello Wordpress
+# Hello WordPress
 
 This is an operational starter theme setup for a basic WordPress theme. It's meant to be a very minimal theme
 to just get up and running.
 
-![Hello Wordpress](https://github.com/erikyuzwa/hello-wordpress/blob/master/screenshot.png)
+![Hello WordPress](https://github.com/erikyuzwa/hello-wordpress/blob/master/screenshot.png)
 
 ## Theme Features
 
@@ -22,6 +22,12 @@ to just get up and running.
 
 - `npm run build`
 - a `.zip` file will show up in the `dist` folder ready for upload to your WordPress site
+
+## Credits, Thanks and Inspirations
+
+- Automattic's [Underscores](https://underscores.me/) starter project
+- Jared Erickson's [LESS - A Free Super Minimal Wordpress Theme](http://jarederickson.com/less-a-free-super-minimal-wordpress-theme/)
+- Kev Quirk's [More or Less WordPress Theme](https://kevq.uk/more-or-less-wordpress-theme/)
 
 ## License
 

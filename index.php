@@ -48,7 +48,7 @@ get_header();
 
 				<?php endwhile; ?>
 
-				<!-- pagintation -->
+				<!-- pagination -->
 				<div id="pagination" class="clearfix">
 					<div class="past-page"><?php previous_posts_link( 'Newer &raquo;' ); ?></div>
 					<div class="next-page"><?php next_posts_link( ' &laquo; Older' ); ?></div>

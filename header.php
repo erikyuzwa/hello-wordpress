@@ -26,7 +26,7 @@
                 <a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
             </h1>
             <hr />
-            <h2><?php echo get_bloginfo( 'description' ); ?></h2>
+            <h3><?php echo get_bloginfo( 'description' ); ?></h3>
         </div><!-- /brand -->
 
         <nav role="navigation" class="site-navigation main-navigation">

@@ -2,6 +2,6 @@
 (function($) {
 	'use strict';
 	$(function() {
-		console.log('hello world');
+		console.log('Hello WordPress');
 	});
 }(jQuery));

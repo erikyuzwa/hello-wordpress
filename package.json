@@ -1,7 +1,7 @@
 {
   "name": "hello-wordpress",
   "version": "1.0.0",
-  "description": "Bonjour! I'm a starter theme called hello-wordpress",
+  "description": "Bonjour! I'm a starter theme called Hello WordPress",
   "main": "index.js",
   "scripts": {
     "postinstall": "composer install",

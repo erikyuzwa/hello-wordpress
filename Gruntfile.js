@@ -1,5 +1,4 @@
 
-
 module.exports = grunt => {
     // Load all grunt tasks matching the ['grunt-*', '@*/grunt-*'] patterns
     require('load-grunt-tasks')(grunt);
@@ -8,13 +7,13 @@ module.exports = grunt => {
     grunt.initConfig({
         header_info: `
 /*
-    Theme Name: Hello Wordpress
-    Theme URI: https://erikyuzwa.com
-    Description: Hello Wordpress Theme
+    Theme Name: Hello WordPress
+    Theme URI: https://erikyuzwa.com/hello-wordpress
+    Description: The Hello WordPress theme is designed to begin life as a "starter" minimalist theme. It features custom styles for all the default blocks, and is built so that what you see in the editor looks like what you'll see on your website. Hello Wordpress is designed to be adaptable to a wide range of websites, whether you’re running a personal blog, or launching a new business.
     Version: 0.0.0
     Author: Erik Yuzwa (@eyuzwa)
     Author URI: https://erikyuzwa.com
-    Tags: Blank, HTML5, CSS3
+    Tags: one-column, flexible-header, accessibility-ready, custom-colors, custom-menu, editor-style, translation-ready
     Text Domain: hello-wordpress
     License: MIT
     License URI: http://opensource.org/licenses/mit-license.php
@@ -35,8 +34,6 @@ module.exports = grunt => {
                 },
                 files: [
                     { expand: true, cwd: 'build/', src: ['**'], dest: '/' }, // includes files in path and its subdirs
-                    //{expand: true, cwd: 'path/', src: ['**'], dest: 'internal_folder3/'}, // makes all src relative to cwd
-                    //{flatten: true, src: ['path/**'], dest: 'internal_folder4/', filter: 'isFile'} // flattens results to a single level
                 ]
             }
         },
@@ -47,16 +44,7 @@ module.exports = grunt => {
                     // includes files within path
                     {expand: true, flatten: true, src: ['./*.php'], dest: 'build/'},
                     {expand: true, cwd: './src', src: ['lang/**'], dest: 'build/'},
-                    {expand: true, flatten: true, src: ['./screenshot.png'], dest: 'build/'}
-
-                    // includes files within path and its sub-directories
-                    //{expand: true, src: ['path/**'], dest: 'dest/'},
-
-                    // makes all src relative to cwd
-                    //{expand: true, cwd: 'path/', src: ['**'], dest: 'dest/'},
-
-                    // flattens results to a single level
-                    //{expand: true, flatten: true, src: ['path/**'], dest: 'dest/', filter: 'isFile'},
+                    {expand: true, flatten: true, src: ['./screenshot.png', './README.md'], dest: 'build/'}
                 ],
             },
         },
